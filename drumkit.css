@@ -1,0 +1,35 @@
+
+html{
+    background-color:rgba(0,0,0.5);
+}
+body{
+    text-align: center;
+}
+#container{
+    display:flex;
+    width:900px;
+    margin:auto;
+    justify-content:space-between;
+    margin-top:300px;
+    
+}
+
+div:not(#container){
+    height:60px;
+    width:80px;
+    border:1px solid;
+    border-radius:3px;
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    box-sizing:border-box;
+    padding-top:5px;
+
+
+}
+div.effect{
+    outline:2px solid yellow;
+    transform:scale(1.1);
+}
+p{
+    margin-top:0;
+}
